@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_KingfisherMemoryTest_KingfisherMemoryTestUITests : NSObject
+@end
+@implementation PodsDummy_Pods_KingfisherMemoryTest_KingfisherMemoryTestUITests
+@end

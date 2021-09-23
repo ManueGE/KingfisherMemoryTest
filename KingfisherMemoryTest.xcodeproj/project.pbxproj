@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		326C8FEA26FB6CDD007ABF4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326C8FE926FB6CDD007ABF4F /* AppDelegate.swift */; };
+		326C8FEC26FB6CDD007ABF4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326C8FEB26FB6CDD007ABF4F /* SceneDelegate.swift */; };
+		326C8FEE26FB6CDD007ABF4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326C8FED26FB6CDD007ABF4F /* ViewController.swift */; };
+		326C8FF126FB6CDD007ABF4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326C8FEF26FB6CDD007ABF4F /* Main.storyboard */; };
+		326C8FF326FB6CDE007ABF4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 326C8FF226FB6CDE007ABF4F /* Assets.xcassets */; };
+		326C8FF626FB6CDE007ABF4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326C8FF426FB6CDE007ABF4F /* LaunchScreen.storyboard */; };
+		326C900126FB6CDE007ABF4F /* KingfisherMemoryTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326C900026FB6CDE007ABF4F /* KingfisherMemoryTestTests.swift */; };
+		326C900B26FB6CDE007ABF4F /* KingfisherMemoryTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326C900A26FB6CDE007ABF4F /* KingfisherMemoryTestUITests.swift */; };
+		326C900D26FB6CDE007ABF4F /* KingfisherMemoryTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326C900C26FB6CDE007ABF4F /* KingfisherMemoryTestUITestsLaunchTests.swift */; };
+		326C901A26FB6D0F007ABF4F /* ImageChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326C901926FB6D0F007ABF4F /* ImageChecker.swift */; };
+		5AA99ED677D23B391B0431A7 /* Pods_KingfisherMemoryTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8637A8F8D73A605C267624C /* Pods_KingfisherMemoryTestTests.framework */; };
+		921B75D49A8EF86A9F1B679C /* Pods_KingfisherMemoryTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4E0AA557669B17B9A53E58 /* Pods_KingfisherMemoryTest.framework */; };
+		B0E3E9E49A8B0F3863BDA5F8 /* Pods_KingfisherMemoryTest_KingfisherMemoryTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E3DAFFD077517C80F04D02 /* Pods_KingfisherMemoryTest_KingfisherMemoryTestUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		326C8FFD26FB6CDE007ABF4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 326C8FDE26FB6CDC007ABF4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 326C8FE526FB6CDD007ABF4F;
+			remoteInfo = KingfisherMemoryTest;
+		};
+		326C900726FB6CDE007ABF4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 326C8FDE26FB6CDC007ABF4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 326C8FE526FB6CDD007ABF4F;
+			remoteInfo = KingfisherMemoryTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		270AF2ECBA04A5AFAFDC27CD /* Pods-KingfisherMemoryTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingfisherMemoryTestTests.release.xcconfig"; path = "Target Support Files/Pods-KingfisherMemoryTestTests/Pods-KingfisherMemoryTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		29E3DAFFD077517C80F04D02 /* Pods_KingfisherMemoryTest_KingfisherMemoryTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KingfisherMemoryTest_KingfisherMemoryTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		326C8FE626FB6CDD007ABF4F /* KingfisherMemoryTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KingfisherMemoryTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		326C8FE926FB6CDD007ABF4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		326C8FEB26FB6CDD007ABF4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		326C8FED26FB6CDD007ABF4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		326C8FF026FB6CDD007ABF4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		326C8FF226FB6CDE007ABF4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		326C8FF526FB6CDE007ABF4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		326C8FF726FB6CDE007ABF4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		326C8FFC26FB6CDE007ABF4F /* KingfisherMemoryTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KingfisherMemoryTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		326C900026FB6CDE007ABF4F /* KingfisherMemoryTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherMemoryTestTests.swift; sourceTree = "<group>"; };
+		326C900626FB6CDE007ABF4F /* KingfisherMemoryTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KingfisherMemoryTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		326C900A26FB6CDE007ABF4F /* KingfisherMemoryTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherMemoryTestUITests.swift; sourceTree = "<group>"; };
+		326C900C26FB6CDE007ABF4F /* KingfisherMemoryTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherMemoryTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		326C901926FB6D0F007ABF4F /* ImageChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageChecker.swift; sourceTree = "<group>"; };
+		3F46333397D1AF4C8E68E364 /* Pods-KingfisherMemoryTest-KingfisherMemoryTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingfisherMemoryTest-KingfisherMemoryTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-KingfisherMemoryTest-KingfisherMemoryTestUITests/Pods-KingfisherMemoryTest-KingfisherMemoryTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4762EC25DB6043329E43FABE /* Pods-KingfisherMemoryTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingfisherMemoryTest.debug.xcconfig"; path = "Target Support Files/Pods-KingfisherMemoryTest/Pods-KingfisherMemoryTest.debug.xcconfig"; sourceTree = "<group>"; };
+		4CE01D903A09C481D5839700 /* Pods-KingfisherMemoryTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingfisherMemoryTestTests.debug.xcconfig"; path = "Target Support Files/Pods-KingfisherMemoryTestTests/Pods-KingfisherMemoryTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		504AA083FF691FDEDCA57C75 /* Pods-KingfisherMemoryTest-KingfisherMemoryTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingfisherMemoryTest-KingfisherMemoryTestUITests.release.xcconfig"; path = "Target Support Files/Pods-KingfisherMemoryTest-KingfisherMemoryTestUITests/Pods-KingfisherMemoryTest-KingfisherMemoryTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		730D8A57DB8B013A5F08C2F5 /* Pods-KingfisherMemoryTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingfisherMemoryTest.release.xcconfig"; path = "Target Support Files/Pods-KingfisherMemoryTest/Pods-KingfisherMemoryTest.release.xcconfig"; sourceTree = "<group>"; };
+		BD4E0AA557669B17B9A53E58 /* Pods_KingfisherMemoryTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KingfisherMemoryTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8637A8F8D73A605C267624C /* Pods_KingfisherMemoryTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KingfisherMemoryTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		326C8FE326FB6CDD007ABF4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921B75D49A8EF86A9F1B679C /* Pods_KingfisherMemoryTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326C8FF926FB6CDE007ABF4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA99ED677D23B391B0431A7 /* Pods_KingfisherMemoryTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326C900326FB6CDE007ABF4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E3E9E49A8B0F3863BDA5F8 /* Pods_KingfisherMemoryTest_KingfisherMemoryTestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		326C8FDD26FB6CDC007ABF4F = {
+			isa = PBXGroup;
+			children = (
+				326C8FE826FB6CDD007ABF4F /* KingfisherMemoryTest */,
+				326C8FFF26FB6CDE007ABF4F /* KingfisherMemoryTestTests */,
+				326C900926FB6CDE007ABF4F /* KingfisherMemoryTestUITests */,
+				326C8FE726FB6CDD007ABF4F /* Products */,
+				B47F2A1B02C22D0192C96319 /* Pods */,
+				6307E2CD48F5E489C095BEED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		326C8FE726FB6CDD007ABF4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				326C8FE626FB6CDD007ABF4F /* KingfisherMemoryTest.app */,
+				326C8FFC26FB6CDE007ABF4F /* KingfisherMemoryTestTests.xctest */,
+				326C900626FB6CDE007ABF4F /* KingfisherMemoryTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		326C8FE826FB6CDD007ABF4F /* KingfisherMemoryTest */ = {
+			isa = PBXGroup;
+			children = (
+				326C8FE926FB6CDD007ABF4F /* AppDelegate.swift */,
+				326C8FEB26FB6CDD007ABF4F /* SceneDelegate.swift */,
+				326C8FED26FB6CDD007ABF4F /* ViewController.swift */,
+				326C901926FB6D0F007ABF4F /* ImageChecker.swift */,
+				326C8FEF26FB6CDD007ABF4F /* Main.storyboard */,
+				326C8FF226FB6CDE007ABF4F /* Assets.xcassets */,
+				326C8FF426FB6CDE007ABF4F /* LaunchScreen.storyboard */,
+				326C8FF726FB6CDE007ABF4F /* Info.plist */,
+			);
+			path = KingfisherMemoryTest;
+			sourceTree = "<group>";
+		};
+		326C8FFF26FB6CDE007ABF4F /* KingfisherMemoryTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				326C900026FB6CDE007ABF4F /* KingfisherMemoryTestTests.swift */,
+			);
+			path = KingfisherMemoryTestTests;
+			sourceTree = "<group>";
+		};
+		326C900926FB6CDE007ABF4F /* KingfisherMemoryTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				326C900A26FB6CDE007ABF4F /* KingfisherMemoryTestUITests.swift */,
+				326C900C26FB6CDE007ABF4F /* KingfisherMemoryTestUITestsLaunchTests.swift */,
+			);
+			path = KingfisherMemoryTestUITests;
+			sourceTree = "<group>";
+		};
+		6307E2CD48F5E489C095BEED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD4E0AA557669B17B9A53E58 /* Pods_KingfisherMemoryTest.framework */,
+				29E3DAFFD077517C80F04D02 /* Pods_KingfisherMemoryTest_KingfisherMemoryTestUITests.framework */,
+				F8637A8F8D73A605C267624C /* Pods_KingfisherMemoryTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B47F2A1B02C22D0192C96319 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4762EC25DB6043329E43FABE /* Pods-KingfisherMemoryTest.debug.xcconfig */,
+				730D8A57DB8B013A5F08C2F5 /* Pods-KingfisherMemoryTest.release.xcconfig */,
+				3F46333397D1AF4C8E68E364 /* Pods-KingfisherMemoryTest-KingfisherMemoryTestUITests.debug.xcconfig */,
+				504AA083FF691FDEDCA57C75 /* Pods-KingfisherMemoryTest-KingfisherMemoryTestUITests.release.xcconfig */,
+				4CE01D903A09C481D5839700 /* Pods-KingfisherMemoryTestTests.debug.xcconfig */,
+				270AF2ECBA04A5AFAFDC27CD /* Pods-KingfisherMemoryTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		326C8FE526FB6CDD007ABF4F /* KingfisherMemoryTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 326C901026FB6CDE007ABF4F /* Build configuration list for PBXNativeTarget "KingfisherMemoryTest" */;
+			buildPhases = (
+				8E73191844656E6A9DD6F870 /* [CP] Check Pods Manifest.lock */,
+				326C8FE226FB6CDD007ABF4F /* Sources */,
+				326C8FE326FB6CDD007ABF4F /* Frameworks */,
+				326C8FE426FB6CDD007ABF4F /* Resources */,
+				73182CDEBF9B22490C3F7239 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KingfisherMemoryTest;
+			productName = KingfisherMemoryTest;
+			productReference = 326C8FE626FB6CDD007ABF4F /* KingfisherMemoryTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		326C8FFB26FB6CDE007ABF4F /* KingfisherMemoryTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 326C901326FB6CDE007ABF4F /* Build configuration list for PBXNativeTarget "KingfisherMemoryTestTests" */;
+			buildPhases = (
+				7799B5F47742E29115359E8E /* [CP] Check Pods Manifest.lock */,
+				326C8FF826FB6CDE007ABF4F /* Sources */,
+				326C8FF926FB6CDE007ABF4F /* Frameworks */,
+				326C8FFA26FB6CDE007ABF4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				326C8FFE26FB6CDE007ABF4F /* PBXTargetDependency */,
+			);
+			name = KingfisherMemoryTestTests;
+			productName = KingfisherMemoryTestTests;
+			productReference = 326C8FFC26FB6CDE007ABF4F /* KingfisherMemoryTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		326C900526FB6CDE007ABF4F /* KingfisherMemoryTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 326C901626FB6CDE007ABF4F /* Build configuration list for PBXNativeTarget "KingfisherMemoryTestUITests" */;
+			buildPhases = (
+				E0E8502416B8C9CC86A183D7 /* [CP] Check Pods Manifest.lock */,
+				326C900226FB6CDE007ABF4F /* Sources */,
+				326C900326FB6CDE007ABF4F /* Frameworks */,
+				326C900426FB6CDE007ABF4F /* Resources */,
+				C43529750F825DB028C2CACB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				326C900826FB6CDE007ABF4F /* PBXTargetDependency */,
+			);
+			name = KingfisherMemoryTestUITests;
+			productName = KingfisherMemoryTestUITests;
+			productReference = 326C900626FB6CDE007ABF4F /* KingfisherMemoryTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		326C8FDE26FB6CDC007ABF4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					326C8FE526FB6CDD007ABF4F = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					326C8FFB26FB6CDE007ABF4F = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 326C8FE526FB6CDD007ABF4F;
+					};
+					326C900526FB6CDE007ABF4F = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 326C8FE526FB6CDD007ABF4F;
+					};
+				};
+			};
+			buildConfigurationList = 326C8FE126FB6CDC007ABF4F /* Build configuration list for PBXProject "KingfisherMemoryTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 326C8FDD26FB6CDC007ABF4F;
+			productRefGroup = 326C8FE726FB6CDD007ABF4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				326C8FE526FB6CDD007ABF4F /* KingfisherMemoryTest */,
+				326C8FFB26FB6CDE007ABF4F /* KingfisherMemoryTestTests */,
+				326C900526FB6CDE007ABF4F /* KingfisherMemoryTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		326C8FE426FB6CDD007ABF4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326C8FF626FB6CDE007ABF4F /* LaunchScreen.storyboard in Resources */,
+				326C8FF326FB6CDE007ABF4F /* Assets.xcassets in Resources */,
+				326C8FF126FB6CDD007ABF4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326C8FFA26FB6CDE007ABF4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326C900426FB6CDE007ABF4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73182CDEBF9B22490C3F7239 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KingfisherMemoryTest/Pods-KingfisherMemoryTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KingfisherMemoryTest/Pods-KingfisherMemoryTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KingfisherMemoryTest/Pods-KingfisherMemoryTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7799B5F47742E29115359E8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KingfisherMemoryTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E73191844656E6A9DD6F870 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KingfisherMemoryTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C43529750F825DB028C2CACB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KingfisherMemoryTest-KingfisherMemoryTestUITests/Pods-KingfisherMemoryTest-KingfisherMemoryTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KingfisherMemoryTest-KingfisherMemoryTestUITests/Pods-KingfisherMemoryTest-KingfisherMemoryTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KingfisherMemoryTest-KingfisherMemoryTestUITests/Pods-KingfisherMemoryTest-KingfisherMemoryTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0E8502416B8C9CC86A183D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KingfisherMemoryTest-KingfisherMemoryTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		326C8FE226FB6CDD007ABF4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326C8FEE26FB6CDD007ABF4F /* ViewController.swift in Sources */,
+				326C901A26FB6D0F007ABF4F /* ImageChecker.swift in Sources */,
+				326C8FEA26FB6CDD007ABF4F /* AppDelegate.swift in Sources */,
+				326C8FEC26FB6CDD007ABF4F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326C8FF826FB6CDE007ABF4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326C900126FB6CDE007ABF4F /* KingfisherMemoryTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326C900226FB6CDE007ABF4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326C900B26FB6CDE007ABF4F /* KingfisherMemoryTestUITests.swift in Sources */,
+				326C900D26FB6CDE007ABF4F /* KingfisherMemoryTestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		326C8FFE26FB6CDE007ABF4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 326C8FE526FB6CDD007ABF4F /* KingfisherMemoryTest */;
+			targetProxy = 326C8FFD26FB6CDE007ABF4F /* PBXContainerItemProxy */;
+		};
+		326C900826FB6CDE007ABF4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 326C8FE526FB6CDD007ABF4F /* KingfisherMemoryTest */;
+			targetProxy = 326C900726FB6CDE007ABF4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		326C8FEF26FB6CDD007ABF4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				326C8FF026FB6CDD007ABF4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		326C8FF426FB6CDE007ABF4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				326C8FF526FB6CDE007ABF4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		326C900E26FB6CDE007ABF4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		326C900F26FB6CDE007ABF4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		326C901126FB6CDE007ABF4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4762EC25DB6043329E43FABE /* Pods-KingfisherMemoryTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CF864KN2XE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KingfisherMemoryTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manuege.KingfisherMemoryTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		326C901226FB6CDE007ABF4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 730D8A57DB8B013A5F08C2F5 /* Pods-KingfisherMemoryTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CF864KN2XE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KingfisherMemoryTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manuege.KingfisherMemoryTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		326C901426FB6CDE007ABF4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CE01D903A09C481D5839700 /* Pods-KingfisherMemoryTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CF864KN2XE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manuege.KingfisherMemoryTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KingfisherMemoryTest.app/KingfisherMemoryTest";
+			};
+			name = Debug;
+		};
+		326C901526FB6CDE007ABF4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 270AF2ECBA04A5AFAFDC27CD /* Pods-KingfisherMemoryTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CF864KN2XE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manuege.KingfisherMemoryTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KingfisherMemoryTest.app/KingfisherMemoryTest";
+			};
+			name = Release;
+		};
+		326C901726FB6CDE007ABF4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F46333397D1AF4C8E68E364 /* Pods-KingfisherMemoryTest-KingfisherMemoryTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CF864KN2XE;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manuege.KingfisherMemoryTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KingfisherMemoryTest;
+			};
+			name = Debug;
+		};
+		326C901826FB6CDE007ABF4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 504AA083FF691FDEDCA57C75 /* Pods-KingfisherMemoryTest-KingfisherMemoryTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CF864KN2XE;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manuege.KingfisherMemoryTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KingfisherMemoryTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		326C8FE126FB6CDC007ABF4F /* Build configuration list for PBXProject "KingfisherMemoryTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326C900E26FB6CDE007ABF4F /* Debug */,
+				326C900F26FB6CDE007ABF4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		326C901026FB6CDE007ABF4F /* Build configuration list for PBXNativeTarget "KingfisherMemoryTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326C901126FB6CDE007ABF4F /* Debug */,
+				326C901226FB6CDE007ABF4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		326C901326FB6CDE007ABF4F /* Build configuration list for PBXNativeTarget "KingfisherMemoryTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326C901426FB6CDE007ABF4F /* Debug */,
+				326C901526FB6CDE007ABF4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		326C901626FB6CDE007ABF4F /* Build configuration list for PBXNativeTarget "KingfisherMemoryTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326C901726FB6CDE007ABF4F /* Debug */,
+				326C901826FB6CDE007ABF4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 326C8FDE26FB6CDC007ABF4F /* Project object */;
+}

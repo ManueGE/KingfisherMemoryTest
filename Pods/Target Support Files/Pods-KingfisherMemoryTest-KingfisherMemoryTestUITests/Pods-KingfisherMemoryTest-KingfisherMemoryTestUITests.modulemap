@@ -1,0 +1,6 @@
+framework module Pods_KingfisherMemoryTest_KingfisherMemoryTestUITests {
+  umbrella header "Pods-KingfisherMemoryTest-KingfisherMemoryTestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

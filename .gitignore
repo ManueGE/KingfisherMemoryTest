@@ -1,0 +1,12 @@
+build
+builds
+.DS_Store
+Jaumo.xcodeproj/project.xcworkspace
+Jaumo.xcodeproj/xcuserdata/
+Jaumo.xcworkspace
+Breakpoints.xcbkptlist
+.idea
+*.dSYM.zip
+*.ipa
+DerivedData/
+Shared/BuildConfig/DebugURL.xcconfig
